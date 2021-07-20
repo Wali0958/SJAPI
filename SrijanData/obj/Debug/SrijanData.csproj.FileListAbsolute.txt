@@ -1,0 +1,12 @@
+E:\SJAPI\SrijanData\bin\Debug\SrijanData.dll.config
+E:\SJAPI\SrijanData\bin\Debug\SrijanData.dll
+E:\SJAPI\SrijanData\bin\Debug\SrijanData.pdb
+E:\SJAPI\SrijanData\bin\Debug\EntityFramework.dll
+E:\SJAPI\SrijanData\bin\Debug\EntityFramework.SqlServer.dll
+E:\SJAPI\SrijanData\bin\Debug\EntityFramework.xml
+E:\SJAPI\SrijanData\bin\Debug\EntityFramework.SqlServer.xml
+E:\SJAPI\SrijanData\obj\Debug\SrijanData.csproj.CoreCompileInputs.cache
+E:\SJAPI\SrijanData\obj\Debug\SrijanData.csproj.CopyComplete
+E:\SJAPI\SrijanData\obj\Debug\SrijanData.dll
+E:\SJAPI\SrijanData\obj\Debug\SrijanData.pdb
+E:\SJAPI\SrijanData\obj\Debug\SrijanData.csprojAssemblyReference.cache

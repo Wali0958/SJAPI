@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8786bc45aa694c2ca58e985d7a6e7873" Name="Diagram1">
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_book_orders" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Category" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Company" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Country" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Designation" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Factory" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_FeedBack" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_FinancialYear" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_HelpDesk" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_HelpDeskStatus" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_HelpDeskUser" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_ImpNews" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_InterestArea" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_MainProduct" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Menu" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_MenuVendor" Width="1.5" PointX="8.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_NicCode" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_NodalOfficer" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Portal" Width="1.5" PointX="10.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_ProgressReport" Width="1.5" PointX="14.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_RequestInfo" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_SearchFilter" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_State" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_SubCategory" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Subject" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_Unit" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_VendorCategory" Width="1.5" PointX="10.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_VendorCheckListCertificate" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_VendorGeneralInfo" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_VendorNodal" Width="1.5" PointX="4.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_VendorRegistration" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_CompanyCategoryRelation" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_FDI" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_FeedBack" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_HelpDeskTrack" Width="1.5" PointX="18.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_Image" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ItemCodeDisplay" Width="1.5" PointX="0.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_Log" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_LoginManage" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_LogSuccessUpdate" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProdLog" Width="1.5" PointX="20.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProdQtyPrice" Width="1.5" PointX="20.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProductChangesStatus" Width="1.5" PointX="20.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProductFIIG" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProductFilterSearchTemp" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_ProductInformation" Width="1.5" PointX="14.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_RequestInfo" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_SubSubject" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_Updatetemptabletime" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorAreaDetails" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorAuthDis" Width="1.5" PointX="0.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorCertificateData" Width="1.5" PointX="2.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorCompInfo" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorDetailofDefence" Width="1.5" PointX="24.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorEmpDetail" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorFinacialInfo" Width="1.5" PointX="16.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorFinancialBank" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorGeneralInfoMultiGrid" Width="1.5" PointX="24.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorGovtApprovedCertificate" Width="1.5" PointX="24.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorJointVenture" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorManuFac" Width="1.5" PointX="4.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorOEM" Width="1.5" PointX="26.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorOutsourceFac" Width="1.5" PointX="6.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorPlantorMachine" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorProducedSupplied" Width="1.5" PointX="26.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorRawMaterial" Width="1.5" PointX="10.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorRegistrationMultiImage" Width="1.5" PointX="12.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorServiceDetails" Width="1.5" PointX="26.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorSubCategory" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_VendorTestFacility" Width="1.5" PointX="20.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.discipline_masters" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.lab_details" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.location" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.material" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.migration" Width="1.5" PointX="28.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.n_o_s" Width="1.5" PointX="28.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.order_histories" Width="1.5" PointX="14.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.organisation" Width="1.5" PointX="28.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_ExceptionLoggingToDataBase" Width="1.5" PointX="16.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_AddmoreVendor" Width="1.5" PointX="28.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_CityMaster" Width="1.5" PointX="22.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_GetAnalyticsInfo" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_NodalOfficerLogin" Width="1.5" PointX="28.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_PinMaster" Width="1.5" PointX="0.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_StateMaster" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_status_reason" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_StoreIPAddress" Width="1.5" PointX="30.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_mst_UserLogin" Width="1.5" PointX="6.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_status_master" Width="1.5" PointX="8.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_CheckListDetail" Width="1.5" PointX="30.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.tbl_trn_CompanyRemarkReply" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.test_facilities" Width="1.5" PointX="30.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.test" Width="1.5" PointX="30.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_Chart" Width="1.5" PointX="24.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_Company" Width="1.5" PointX="30.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_CompanyProduct" Width="1.5" PointX="2.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_CompDiv" Width="1.5" PointX="18.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_CompDivUnit" Width="1.5" PointX="20.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_DivisionProduct" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ddp_fdiFinalModel.vw_IsNodalYes" Width="1.5" PointX="12.75" PointY="32.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

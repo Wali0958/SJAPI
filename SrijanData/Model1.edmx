@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="ddp_fdiFinalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="ddp_fdiFinalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <!--Errors Found During Generation:
 warning 6002: The table/view 'ddp_fdiFinal.dbo.discipline_masters' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="discipline_masters">
@@ -389,7 +389,7 @@ warning 6002: The table/view 'ddp_fdiFinal.dbo.tbl_mst_GetAnalyticsInfo' does no
           <Property Name="Email" Type="nvarchar" MaxLength="50" />
           <Property Name="MobileNo" Type="bigint" />
           <Property Name="State" Type="varchar" MaxLength="150" />
-          <Property Name="Subject" Type="nvarchar" MaxLength="50" />
+          <Property Name="Subject" Type="nvarchar" MaxLength="150" />
           <Property Name="Address" Type="nvarchar" MaxLength="250" />
           <Property Name="Issue" Type="nvarchar" MaxLength="500" />
           <Property Name="Files" Type="nvarchar" MaxLength="500" />
@@ -5076,8 +5076,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
     FROM [dbo].[vw_IsNodalYes] AS [vw_IsNodalYes]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="ddp_fdiFinalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -5691,7 +5690,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
           <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="MobileNo" Type="Int64" />
           <Property Name="State" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-          <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Subject" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
           <Property Name="Issue" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="Files" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
@@ -7583,7 +7582,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="YrOfIndiginisation" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_GetInterestedInValue" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_GetInterestedInValue_Result)">
-            <Parameter Name="CompRefNo" Mode="In" Type="String" />
+          <Parameter Name="CompRefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_GetListProductDetails" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_GetListProductDetails_Result)">
             <Parameter Name="Action" Mode="In" Type="String" />
@@ -7594,17 +7593,17 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
           <FunctionImport Name="fn_ProductFilterSearch" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductFilterSearch_Result)" />
           <FunctionImport Name="fn_ProductFilterSearchdemo" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductFilterSearchdemo_Result)" />
           <FunctionImport Name="fn_ProductFilterSearchInstant" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductFilterSearchInstant_Result)">
-            <Parameter Name="RefNo" Mode="In" Type="String" />
+          <Parameter Name="RefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_ProductGrpah" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductGrpah_Result)">
-            <Parameter Name="RefNo" Mode="In" Type="String" />
+          <Parameter Name="RefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_ProductGrpahII" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductGrpahII_Result)">
             <Parameter Name="RefNo" Mode="In" Type="String" />
             <Parameter Name="mSSCatName" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_ProductGrpahNSNGroup" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductGrpahNSNGroup_Result)">
-            <Parameter Name="RefNo" Mode="In" Type="String" />
+          <Parameter Name="RefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_ProductNSNClassGrpahII" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductNSNClassGrpahII_Result)">
             <Parameter Name="RefNo" Mode="In" Type="String" />
@@ -7612,7 +7611,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
           </FunctionImport>
           <FunctionImport Name="fn_ProductProgress" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductProgress_Result)" />
           <FunctionImport Name="fn_ProductProgressInstant" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductProgressInstant_Result)">
-            <Parameter Name="RefNo" Mode="In" Type="String" />
+          <Parameter Name="RefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="fn_ProductView" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_ProductView_Result)" />
           <FunctionImport Name="fn_updatenodel" IsComposable="true" ReturnType="Collection(ddp_fdiFinalModel.fn_updatenodel_Result)" />
@@ -7650,7 +7649,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="indiginized" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="newproductfilter" ReturnType="Collection(ddp_fdiFinalModel.newproductfilter_Result)">
-            <Parameter Name="Criteria" Mode="In" Type="String" />
+          <Parameter Name="Criteria" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="pendingBookedOrders" ReturnType="Collection(ddp_fdiFinalModel.pendingBookedOrders_Result)" />
           <FunctionImport Name="sp_AddNewNodalOfficerVendor">
@@ -7715,11 +7714,11 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="definition" Mode="In" Type="Binary" />
           </FunctionImport>
           <FunctionImport Name="sp_ApproveBookedOrder">
-            <Parameter Name="id" Mode="In" Type="Int32" />
+          <Parameter Name="id" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_ApprovendRejectedorders" ReturnType="Collection(ddp_fdiFinalModel.sp_ApprovendRejectedorders_Result)" />
           <FunctionImport Name="sp_BindBookedOrder" ReturnType="Collection(ddp_fdiFinalModel.sp_BindBookedOrder_Result)">
-            <Parameter Name="orgname" Mode="In" Type="String" />
+          <Parameter Name="orgname" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_BindTestDetails" ReturnType="Collection(ddp_fdiFinalModel.sp_BindTestDetails_Result)" />
           <FunctionImport Name="sp_BookOrders">
@@ -7810,7 +7809,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="Type" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_forgotpasswordexp">
-            <Parameter Name="email" Mode="In" Type="String" />
+          <Parameter Name="email" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetAllCity" ReturnType="Collection(ddp_fdiFinalModel.sp_GetAllCity_Result)" />
           <FunctionImport Name="sp_GetAllDiscipline" ReturnType="Collection(String)" />
@@ -7819,7 +7818,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
           <FunctionImport Name="sp_GetAllPinCode" ReturnType="Collection(ddp_fdiFinalModel.sp_GetAllPinCode_Result)" />
           <FunctionImport Name="sp_GetAllState" ReturnType="Collection(ddp_fdiFinalModel.sp_GetAllState_Result)" />
           <FunctionImport Name="sp_GetCitywithPinCode" ReturnType="Collection(ddp_fdiFinalModel.sp_GetCitywithPinCode_Result)">
-            <Parameter Name="PinCode" Mode="In" Type="String" />
+          <Parameter Name="PinCode" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetCompDivUnit" ReturnType="Collection(ddp_fdiFinalModel.sp_GetCompDivUnit_Result)">
             <Parameter Name="Role" Mode="In" Type="String" />
@@ -7849,7 +7848,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="UnitRefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetInterestedInValue" ReturnType="Collection(String)">
-            <Parameter Name="CompRefNo" Mode="In" Type="String" />
+          <Parameter Name="CompRefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetNodalCompDivUnit" ReturnType="Collection(ddp_fdiFinalModel.sp_GetNodalCompDivUnit_Result)">
             <Parameter Name="Role" Mode="In" Type="String" />
@@ -7860,19 +7859,19 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="trackEmaiID" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetprofileDetail">
-            <Parameter Name="Email" Mode="In" Type="String" />
+          <Parameter Name="Email" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetprofileMigrationLst">
-            <Parameter Name="Email" Mode="In" Type="String" />
+          <Parameter Name="Email" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetStatewithWithCity" ReturnType="Collection(Int32)">
-            <Parameter Name="StateId" Mode="In" Type="String" />
+          <Parameter Name="StateId" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetTestdetailsbyCompany" ReturnType="Collection(ddp_fdiFinalModel.sp_GetTestdetailsbyCompany_Result)">
-            <Parameter Name="compname" Mode="In" Type="String" />
+          <Parameter Name="compname" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_GetTestdetailsbyId" ReturnType="Collection(ddp_fdiFinalModel.sp_GetTestdetailsbyId_Result)">
-            <Parameter Name="id" Mode="In" Type="Int32" />
+          <Parameter Name="id" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="sp_GetVuserDetails">
             <Parameter Name="VndorID" Mode="In" Type="String" />
@@ -8131,7 +8130,7 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="Activity" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_LogoutTime" ReturnType="Collection(ddp_fdiFinalModel.sp_LogoutTime_Result)">
-            <Parameter Name="UserId" Mode="In" Type="String" />
+          <Parameter Name="UserId" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_LogProduct">
             <Parameter Name="ProdRefNo" Mode="In" Type="String" />
@@ -8256,10 +8255,10 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="NIINCode" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_MultipleKeywordSearchCompanyGRID" ReturnType="Collection(ddp_fdiFinalModel.sp_MultipleKeywordSearchCompanyGRID_Result)">
-            <Parameter Name="str" Mode="In" Type="String" />
+          <Parameter Name="str" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_MultipleKeywordSearchFDIGRID" ReturnType="Collection(ddp_fdiFinalModel.sp_MultipleKeywordSearchFDIGRID_Result)">
-            <Parameter Name="str" Mode="In" Type="String" />
+          <Parameter Name="str" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_NewRetrieveCode" ReturnType="Collection(ddp_fdiFinalModel.sp_NewRetrieveCode_Result)">
             <Parameter Name="criteria" Mode="In" Type="String" />
@@ -8356,10 +8355,10 @@ warning 6013: The table/view 'ddp_fdiFinal.dbo.vw_UnitProduct' does not have a p
             <Parameter Name="Purpose" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_SearchFDIGrid" ReturnType="Collection(ddp_fdiFinalModel.sp_SearchFDIGrid_Result)">
-            <Parameter Name="CompanyRefNo" Mode="In" Type="String" />
+          <Parameter Name="CompanyRefNo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_SearchtestdataonHomepage" ReturnType="Collection(ddp_fdiFinalModel.sp_SearchtestdataonHomepage_Result)">
-            <Parameter Name="compname" Mode="In" Type="String" />
+          <Parameter Name="compname" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="sp_State" ReturnType="Collection(ddp_fdiFinalModel.sp_State_Result)">
             <Parameter Name="StateID" Mode="In" Type="Int64" />

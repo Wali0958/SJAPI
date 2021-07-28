@@ -384,7 +384,7 @@ warning 6002: The table/view 'ddp_fdiFinal.dbo.tbl_mst_GetAnalyticsInfo' does no
     <Property Name="Email" Type="nvarchar" MaxLength="50" />
     <Property Name="MobileNo" Type="bigint" />
     <Property Name="State" Type="varchar" MaxLength="150" />
-    <Property Name="Subject" Type="nvarchar" MaxLength="50" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="150" />
     <Property Name="Address" Type="nvarchar" MaxLength="250" />
     <Property Name="Issue" Type="nvarchar" MaxLength="500" />
     <Property Name="Files" Type="nvarchar" MaxLength="500" />

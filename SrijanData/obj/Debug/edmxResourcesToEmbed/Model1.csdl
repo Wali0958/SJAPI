@@ -610,7 +610,7 @@
     <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="MobileNo" Type="Int64" />
     <Property Name="State" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
-    <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
     <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
     <Property Name="Issue" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
     <Property Name="Files" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />

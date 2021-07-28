@@ -1,12 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using SrijanData;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using SrijanData;
-using Newtonsoft.Json;
-using System.Web.Helpers;
-using System.Net.Http;
-using Newtonsoft.Json.Linq;
-using System;
 
 namespace SrijanDefenceAPI.Controllers
 {
@@ -24,8 +20,9 @@ namespace SrijanDefenceAPI.Controllers
             }
             catch (Exception ex)
             {
+                ex.Message.ToString();
                 return mList;
             }           
-        }
+        }       
     }
 }
